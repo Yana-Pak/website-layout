@@ -52,3 +52,19 @@ elementScroll.addEventListener('click', scrollBy(0, 1100, "smooth"));
 
 // ------------менюшка бургер--------------
 
+const burger = document.querySelector('.burger');
+const menu = document.querySelector('.menu');
+const topMainBlock = document.querySelector('.top-block__main');
+
+function burgerShow() {
+    burger.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+}
+burgerShow();
+burgerNone()
+function burgerNone() {
+    topMainBlock.addEventListener('click', () => {
+        menu.style.transform = "translateY(-100%)";
+    });
+}
