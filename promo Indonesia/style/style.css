@@ -150,60 +150,6 @@ a {
   gap: 10px;
 }
 
-@media (max-width: 1024px) {
-  .top-block {
-    height: 700px;
-  }
-  .header__title {
-    font-size: 40px;
-  }
-  .main__follow-block {
-    padding-left: 7%;
-    justify-content: center;
-  }
-}
-@media (max-width: 768px) {
-  .header__subtitle::before {
-    width: 45px;
-    right: 75px;
-  }
-  .burger {
-    display: block;
-  }
-  .menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f7f1f1;
-    flex-direction: column;
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out;
-  }
-  .nav__list {
-    gap: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .nav__link {
-    color: #000000;
-    border-bottom: 1px dotted #000000;
-  }
-  .menu a:hover {
-    color: #FFC178;
-  }
-  .menu.active {
-    transform: translateY(0);
-  }
-}
-@media (max-width: 660px) {
-  .header__subtitle {
-    margin-left: 0;
-  }
-  .header__title {
-    margin-bottom: 155px;
-  }
-}
 .inform {
   padding-top: 55px;
   margin-bottom: 200px;
@@ -365,72 +311,6 @@ a {
   background-size: cover;
 }
 
-@media (max-width: 1024px) {
-  .inform__title,
-  .carousel__title {
-    font-size: 50px;
-  }
-}
-@media (max-width: 768px) {
-  .inform__title,
-  .carousel__title {
-    font-size: 24px;
-  }
-  .carousel-text {
-    padding: 320px 70px 0;
-    font-size: 14px;
-  }
-  .inform__box {
-    font-size: 14px;
-    gap: 50px;
-  }
-  .img-block {
-    flex: 0 1 35%;
-  }
-  .inform__block {
-    flex: 0 1 65%;
-  }
-  .carousel__subtitle {
-    margin-left: 5px;
-  }
-}
-.carousel__subtitle::before {
-  width: 42px;
-  right: 50px;
-}
-
-.carousel__subtitle::after {
-  width: 42px;
-  left: 67px;
-}
-
-@media (max-width: 600px) {
-  .inform__title,
-  .carousel__title {
-    font-size: 22px;
-  }
-  .carousel-text {
-    padding: 320px 70px 0;
-    font-size: 12px;
-  }
-  .inform__box {
-    font-size: 12px;
-    gap: 30px;
-  }
-}
-@media (max-width: 425px) {
-  .carousel-text {
-    padding: 300px 25px 0;
-    font-size: 12px;
-    gap: 10px;
-  }
-  .carousel__title {
-    font-size: 20px;
-  }
-  .carousel__subtitle {
-    font-size: 14px;
-  }
-}
 .footer {
   margin-bottom: 80px;
 }
@@ -519,7 +399,7 @@ a {
 }
 
 .navigation__list {
-  color: #FFD1A0;
+  color: #FFC178;
   font-weight: 700;
   display: flex;
   flex-direction: column;
@@ -545,6 +425,126 @@ a {
   gap: 50px;
 }
 
+@media (max-width: 1024px) {
+  .top-block {
+    height: 700px;
+  }
+  .header__title {
+    font-size: 40px;
+  }
+  .main__follow-block {
+    padding-left: 7%;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .header__subtitle::before {
+    width: 45px;
+    right: 75px;
+  }
+  .burger {
+    display: block;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f7f1f1;
+    flex-direction: column;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .nav__list {
+    gap: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav__link {
+    color: #000000;
+    border-bottom: 1px dotted #000000;
+  }
+  .menu a:hover {
+    color: #FFC178;
+  }
+  .menu.active {
+    transform: translateY(0);
+  }
+}
+@media (max-width: 660px) {
+  .header__subtitle {
+    margin-left: 0;
+  }
+  .header__title {
+    margin-bottom: 155px;
+  }
+}
+@media (max-width: 1024px) {
+  .inform__title,
+  .carousel__title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .inform__title,
+  .carousel__title {
+    font-size: 24px;
+  }
+  .carousel-text {
+    padding: 320px 70px 0;
+    font-size: 14px;
+  }
+  .inform__box {
+    font-size: 14px;
+    gap: 50px;
+  }
+  .img-block {
+    flex: 0 1 35%;
+  }
+  .inform__block {
+    flex: 0 1 65%;
+  }
+  .carousel__subtitle {
+    margin-left: 5px;
+  }
+}
+.carousel__subtitle::before {
+  width: 42px;
+  right: 50px;
+}
+
+.carousel__subtitle::after {
+  width: 42px;
+  left: 67px;
+}
+
+@media (max-width: 600px) {
+  .inform__title,
+  .carousel__title {
+    font-size: 22px;
+  }
+  .carousel-text {
+    padding: 320px 70px 0;
+    font-size: 12px;
+  }
+  .inform__box {
+    font-size: 12px;
+    gap: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .carousel-text {
+    padding: 300px 25px 0;
+    font-size: 12px;
+    gap: 10px;
+  }
+  .carousel__title {
+    font-size: 20px;
+  }
+  .carousel__subtitle {
+    font-size: 14px;
+  }
+}
 @media (max-width: 1024px) {
   .vacation__title {
     font-size: 28px;
