@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <script defer src="script.js"></script>
+    <!-- <script defer src="script.js"></script> -->
     <title>Developer Portfolio</title>
 </head>
 
@@ -18,22 +18,22 @@
         </div>
         <nav class="nav">
             <ul class="nav__list flex">
-                <li class="nav-list__item">
-                    <a class="nav-list__link" href="#">Home</a>
+                <li class="nav__list-item">
+                    <a class="nav__list-link" href="#">Home</a>
                 </li>
-                <li class="nav-list__item">
-                    <a class="nav-list__link" href="#">About</a>
+                <li class="nav__list-item">
+                    <a class="nav__list-link" href="#">About</a>
                 </li>
-                <li class="nav-list__item">
-                    <a class="nav-list__link" href="#">Tech Stack</a>
+                <li class="nav__list-item">
+                    <a class="nav__list-link" href="#">Tech Stack</a>
                 </li>
-                <li class="nav-list__item">
-                    <a class="nav-list__link" href="#">Projects</a>
+                <li class="nav__list-item">
+                    <a class="nav__list-link" href="#">Projects</a>
                 </li>
-                <li class="nav-list__item">
-                    <a class="nav-list__link" href="#">Contact</a>
+                <li class="nav__list-item">
+                    <a class="nav__list-link" href="#">Contact</a>
                 </li>
-                <li class="nav-list__item item-icon">
+                <li class="nav__list-item item-icon">
                     <a href="#">
                         <img src="img/gith.svg" alt="github">
                     </a>
@@ -47,7 +47,7 @@
             </ul>
         </nav>
         <div class="header__burger">
-            <img src="img/burger.svg" alt="">
+            <img src="img/burger.svg" alt="burger-menu">
         </div>
     </header>
     <section class="welcome flex">
@@ -58,7 +58,7 @@
             I build things for web
         </h1>
         <div class="welcome__img">
-            <img src="/img/welcome.png" alt="welcome-image">
+            <img src="img/welcome.png" alt="welcome-image">
         </div>
     </section>
     <section class="stack">
@@ -68,17 +68,17 @@
         </div>
         <div class="stack__technologies">
             <img src="img/vscode-icons_file-type-html.svg" alt="html">
-            <img src="/img/vscode-icons_file-type-css.svg" alt="css">
-            <img src="/img/vscode-icons_file-type-js-official.svg" alt="js">
-            <img src="/img/logos_react.svg" alt="react">
-            <img src="/img/Vector1.svg" alt="vector">
-            <img src="/img/logos_bootstrap.svg" alt="bootstrap">
-            <img src="/img/vscode-icons_file-type-tailwind.svg" alt="tailwind">
-            <img src="/img/logos_sass.svg" alt="sass">
-            <img src="/img/git-icon.svg" alt="git">
-            <img src="/img/cib_greensock.svg" alt="cib_greensock">
-            <img src="/img/vscode-icons_file-type-vscode.svg" alt="vscode">
-            <img src="/img/github-icon.svg" alt="github">
+            <img src="img/vscode-icons_file-type-css.svg" alt="css">
+            <img src="img/vscode-icons_file-type-js-official.svg" alt="js">
+            <img src="img/logos_react.svg" alt="react">
+            <img src="img/Vector1.svg" alt="vector">
+            <img src="img/logos_bootstrap.svg" alt="bootstrap">
+            <img src="img/vscode-icons_file-type-tailwind.svg" alt="tailwind">
+            <img src="img/logos_sass.svg" alt="sass">
+            <img src="img/git-icon.svg" alt="git">
+            <img src="img/cib_greensock.svg" alt="cib_greensock">
+            <img src="img/vscode-icons_file-type-vscode.svg" alt="vscode">
+            <img src="img/github-icon.svg" alt="github">
         </div>
     </section>
     <section class="projects">
@@ -87,29 +87,30 @@
             Things I’ve built so far
         </div>
 
-        <div class="projects__list flex">
+        <div class="projects-list flex">
             <div class="projects-list__card">
-                <div class="card__img">
+                <div class="projects-list__card-img">
                     <img src="img/Rectangle 4.png" alt="product">
                 </div>
-                <div class="card-block">
-                    <h4 class="card__title">Project Tile goes here</h4>
-                    <p class="card__desc">This is sample project description random things are here in description This
+                <div class="projects-list__card-block">
+                    <h4 class="projects-list__card-title">Project Tile goes here</h4>
+                    <p class="projects-list__card-desc">This is sample project description random things are here in
+                        description This
                         is
                         sample project lorem ipsum generator for dummy content</p>
-                    <p class="card__stack">
+                    <p class="projects-list__card-stack">
                         Tech stack :<span class="text-lite"> HTML , JavaScript, SASS, React</span>
                     </p>
-                    <div class="card__links flex">
-                        <div class="card__link">
-                            <a class="link__item" href="#">
+                    <div class="projects-list__card-links flex">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
                                 <img src="img/link-chain.svg" alt="link-item">
                                 <span class="link-border">Live Preview</span>
                             </a>
                         </div>
-                        <div class="card__link">
-                            <a class="link__item" href="#">
-                                <img class="link__img" src="img/github-fill.svg" alt="link-item">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
+                                <img class="projects-list__card-link-img" src="img/github-fill.svg" alt="link-item">
                                 <span class="link-border">View Code</span>
                             </a>
                         </div>
@@ -117,27 +118,28 @@
                 </div>
             </div>
             <div class="projects-list__card">
-                <div class="card__img">
+                <div class="projects-list__card-img">
                     <img src="img/Rectangle 6.png" alt="product">
                 </div>
-                <div class="card-block">
-                    <h4 class="card__title">Project Tile goes here</h4>
-                    <p class="card__desc">This is sample project description random things are here in description This
+                <div class="projects-list__card-block">
+                    <h4 class="projects-list__card-title">Project Tile goes here</h4>
+                    <p class="projects-list__card-desc">This is sample project description random things are here in
+                        description This
                         is
                         sample project lorem ipsum generator for dummy content</p>
-                    <p class="card__stack">
+                    <p class="projects-list__card-stack">
                         Tech stack :<span class="text-lite"> HTML , JavaScript, SASS, React</span>
                     </p>
-                    <div class="card__links flex">
-                        <div class="card__link">
-                            <a class="link__item" href="#">
+                    <div class="projects-list__card-links flex">
+                        <div class="projects-list__card-list">
+                            <a class="projects-list__card-link" href="#">
                                 <img src="img/link-chain.svg" alt="link-item">
                                 <span class="link-border">Live Preview</span>
                             </a>
                         </div>
-                        <div class="card__link">
-                            <a class="link__item" href="#">
-                                <img class="link__img" src="img/github-fill.svg" alt="link-item">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
+                                <img class="projects-list__card-link-img" src="img/github-fill.svg" alt="link-item">
                                 <span class="link-border">View Code</span>
                             </a>
                         </div>
@@ -145,27 +147,28 @@
                 </div>
             </div>
             <div class="projects-list__card">
-                <div class="card__img">
+                <div class="projects-list__card-img">
                     <img src="img/Rectangle 8.png" alt="product">
                 </div>
-                <div class="card-block">
-                    <h4 class="card__title">Project Tile goes here</h4>
-                    <p class="card__desc">This is sample project description random things are here in description This
+                <div class="projects-list__card-block">
+                    <h4 class="projects-list__card-title">Project Tile goes here</h4>
+                    <p class="projects-list__card-desc">This is sample project description random things are here in
+                        description This
                         is
                         sample project lorem ipsum generator for dummy content</p>
-                    <p class="card__stack">
+                    <p class="projects-list__card-stack">
                         Tech stack :<span class="text-lite"> HTML , JavaScript, SASS, React</span>
                     </p>
-                    <div class="card__links flex">
-                        <div class="card__link">
-                            <a class="link__item" href="#">
+                    <div class="projects-list__card-links flex">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
                                 <img src="img/link-chain.svg" alt="link-item">
                                 <span class="link-border">Live Preview</span>
                             </a>
                         </div>
-                        <div class="card__link">
-                            <a class="link__item" href="#">
-                                <img class="link__img" src="img/github-fill.svg" alt="link-item">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
+                                <img class="projects-list__card-link-img" src="img/github-fill.svg" alt="link-item">
                                 <span class="link-border">View Code</span>
                             </a>
                         </div>
@@ -173,27 +176,28 @@
                 </div>
             </div>
             <div class="projects-list__card">
-                <div class="card__img">
+                <div class="projects-list__card-img">
                     <img src="img/Rectangle 12.png" alt="product">
                 </div>
-                <div class="card-block">
-                    <h4 class="card__title">Project Tile goes here</h4>
-                    <p class="card__desc">This is sample project description random things are here in description This
+                <div class="projects-list__card-block">
+                    <h4 class="projects-list__card-title">Project Tile goes here</h4>
+                    <p class="projects-list__card-desc">This is sample project description random things are here in
+                        description This
                         is
                         sample project lorem ipsum generator for dummy content</p>
-                    <p class="card__stack">
+                    <p class="projects-list__card-stack">
                         Tech stack :<span class="text-lite"> HTML , JavaScript, SASS, React</span>
                     </p>
-                    <div class="card__links flex">
-                        <div class="card__link">
-                            <a class="link__item" href="#">
+                    <div class="projects-list__card-links flex">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
                                 <img src="img/link-chain.svg" alt="link-item">
                                 <span class="link-border">Live Preview</span>
                             </a>
                         </div>
-                        <div class="card__link">
-                            <a class="link__item" href="#">
-                                <img class="link__img" src="img/github-fill.svg" alt="link-item">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
+                                <img class="projects-list__card-link-img" src="img/github-fill.svg" alt="link-item">
                                 <span class="link-border">View Code</span>
                             </a>
                         </div>
@@ -201,27 +205,28 @@
                 </div>
             </div>
             <div class="projects-list__card">
-                <div class="card__img">
+                <div class="projects-list__card-img">
                     <img src="img/Rectangle 13.png" alt="product">
                 </div>
-                <div class="card-block">
-                    <h4 class="card__title">Project Tile goes here</h4>
-                    <p class="card__desc">This is sample project description random things are here in description This
+                <div class="projects-list__card-block">
+                    <h4 class="projects-list__card-title">Project Tile goes here</h4>
+                    <p class="projects-list__card-desc">This is sample project description random things are here in
+                        description This
                         is
                         sample project lorem ipsum generator for dummy content</p>
-                    <p class="card__stack">
+                    <p class="projects-list__card-stack">
                         Tech stack :<span class="text-lite"> HTML , JavaScript, SASS, React</span>
                     </p>
-                    <div class="card__links flex">
-                        <div class="card__link">
-                            <a class="link__item" href="#">
+                    <div class="projects-list__card-links flex">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
                                 <img src="img/link-chain.svg" alt="link-item">
                                 <span class="link-border">Live Preview</span>
                             </a>
                         </div>
-                        <div class="card__link">
-                            <a class="link__item" href="#">
-                                <img class="link__img" src="img/github-fill.svg" alt="link-item">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
+                                <img class="projects-list__card-link-img" src="img/github-fill.svg" alt="link-item">
                                 <span class="link-border">View Code</span>
                             </a>
                         </div>
@@ -229,27 +234,28 @@
                 </div>
             </div>
             <div class="projects-list__card">
-                <div class="card__img">
+                <div class="projects-list__card-img">
                     <img src="img/Rectangle 14.png" alt="product">
                 </div>
-                <div class="card-block">
-                    <h4 class="card__title">Project Tile goes here</h4>
-                    <p class="card__desc">This is sample project description random things are here in description This
+                <div class="projects-list__card-block">
+                    <h4 class="projects-list__card-title">Project Tile goes here</h4>
+                    <p class="projects-list__card-desc">This is sample project description random things are here in
+                        description This
                         is
                         sample project lorem ipsum generator for dummy content</p>
-                    <p class="card__stack">
+                    <p class="projects-list__card-stack">
                         Tech stack :<span class="text-lite"> HTML , JavaScript, SASS, React</span>
                     </p>
-                    <div class="card__links flex">
-                        <div class="card__link">
-                            <a class="link__item" href="#">
+                    <div class="projects-list__card-links flex">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
                                 <img src="img/link-chain.svg" alt="link-item">
                                 <span class="link-border">Live Preview</span>
                             </a>
                         </div>
-                        <div class="card__link">
-                            <a class="link__item" href="#">
-                                <img class="link__img" src="img/github-fill.svg" alt="link-item">
+                        <div class="projects-list__card-item">
+                            <a class="projects-list__card-link" href="#">
+                                <img class="projects-list__card-link-img" src="img/github-fill.svg" alt="link-item">
                                 <span class="link-border">View Code</span>
                             </a>
                         </div>
@@ -270,13 +276,13 @@
                 <li><a class="footer__link" href="mailto:info@example.com">info@example.com</a></li>
                 <li class="footer-link__icon flex">
                     <a href="#">
-                        <img src="/img/github-footer.svg" alt="">
+                        <img src="img/github-footer.svg" alt="github-footer">
                     </a>
                     <a href="#">
-                        <img src="/img/twitter-footer.svg" alt="">
+                        <img src="img/twitter-footer.svg" alt="twitter-footer">
                     </a>
                     <a href="#">
-                        <img src="/img/linkedin-footer.svg" alt="">
+                        <img src="img/linkedin-footer.svg" alt="linkedin-footer">
                     </a>
                 </li>
             </ul>
@@ -284,20 +290,20 @@
         <div class="footer__bottom">
             <nav class="nav">
                 <ul class="nav__list flex">
-                    <li class="nav-list__item">
-                        <a class="nav-list__link nav-list__link_footer-color" href="#">Home</a>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link nav__list-link_footer-color" href="#">Home</a>
                     </li>
-                    <li class="nav-list__item">
-                        <a class="nav-list__link nav-list__link_footer-color" href="#">About</a>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link nav__list-link_footer-color" href="#">About</a>
                     </li>
-                    <li class="nav-list__item">
-                        <a class="nav-list__link nav-list__link_footer-color" href="#">Tech Stack</a>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link nav__list-link_footer-color" href="#">Tech Stack</a>
                     </li>
-                    <li class="nav-list__item">
-                        <a class="nav-list__link nav-list__link_footer-color" href="#">Projects</a>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link nav__list-link_footer-color" href="#">Projects</a>
                     </li>
-                    <li class="nav-list__item">
-                        <a class="nav-list__link nav-list__link_footer-color" href="#">Contact</a>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link nav__list-link_footer-color" href="#">Contact</a>
                     </li>
                 </ul>
             </nav>
